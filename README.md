@@ -29,7 +29,7 @@ If the project is on GitHub, here’s how you would instruct the user to clone t
 ### 4. **Run the Project**
    - **Step 6:** Start the project by running the following command:
      ```bash
-     node index.js
+     node admin.js
      ```
      - If the main file is named differently (e.g., `app.js`), replace `index.js` with the correct filename.
 
