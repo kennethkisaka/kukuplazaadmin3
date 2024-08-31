@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Portal - Bootstrap 5 Admin Dashboard Template For Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Portal - Bootstrap 5 Admin Dashboard Template For Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+    <script defer src="assets/plugins/fontawesome/js/all.min.js"></script>
+    
+    <!-- App CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/portal.css">
+
+</head> 
+
+<body class="app">   	
+    <header class="app-header fixed-top">	   	            
+        <div class="app-header-inner">  
+	        <div class="container-fluid py-2">
+		        <div class="app-header-content"> 
+		            <div class="row justify-content-between align-items-center">
+			        
+				    <div class="col-auto">
+					    <a id="sidepanel-toggler" class="sidepanel-toggler d-inline-block d-xl-none" href="#">
+						    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+					    </a>
+				    </div><!--//col-->
+		            <div class="search-mobile-trigger d-sm-none col">
+			            <i class="search-mobile-trigger-icon fa-solid fa-magnifying-glass"></i>
+			        </div><!--//col-->
+		            
+		            
+		            <div class="app-utilities col-auto">
+			            
+			            
+			            <div class="app-utility-item app-user-dropdown dropdown">
+				            <a class="dropdown-toggle" id="user-dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="assets/images/user.png" alt="user profile"></a>
+				            <ul class="dropdown-menu" aria-labelledby="user-dropdown-toggle">
+								<li><a class="dropdown-item" href="login.html">Log Out</a></li>
+							</ul>
+			            </div><!--//app-user-dropdown--> 
+		            </div><!--//app-utilities-->
+		        </div><!--//row-->
+	            </div><!--//app-header-content-->
+	        </div><!--//container-fluid-->
+        </div><!--//app-header-inner-->
+        <div id="app-sidepanel" class="app-sidepanel"> 
+	        <div id="sidepanel-drop" class="sidepanel-drop"></div>
+	        <div class="sidepanel-inner d-flex flex-column">
+		        <a href="#" id="sidepanel-close" class="sidepanel-close d-xl-none">&times;</a>
+		        <div class="app-branding">
+		            <a class="app-logo" href="index.html"><img class="logo-icon me-2" src="assets/images/app-logo.svg" alt="logo"><span class="logo-text">KUKUPLAZA</span></a>
+	
+		        </div><!--//app-branding-->  
+		        
+			    <nav id="app-nav-main" class="app-nav app-nav-main flex-grow-1">
+				    <ul class="app-menu list-unstyled accordion" id="menu-accordion">
+					    <li class="nav-item">
+					        <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+					        <a class="nav-link active" href="index.html">
+						        <span class="nav-icon">
+						        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+		  <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+		  <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+		</svg>
+						         </span>
+		                         <span class="nav-link-text">Overview</span>
+					        </a><!--//nav-link-->
+					    </li><!--//nav-item-->
+					    
+					    <li class="nav-item">
+					        <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+					        <a class="nav-link" href="orders.html">
+						        <span class="nav-icon">
+						        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+  <path fill-rule="evenodd" d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z"/>
+  <circle cx="3.5" cy="5.5" r=".5"/>
+  <circle cx="3.5" cy="8" r=".5"/>
+  <circle cx="3.5" cy="10.5" r=".5"/>
+</svg>
+						         </span>
+		                         <span class="nav-link-text">Orders</span>
+					        </a><!--//nav-link-->
+					    </li><!--//nav-item-->
+					    				    
+				    </ul><!--//app-menu-->
+			    </nav><!--//app-nav-->
+		       
+	        </div><!--//sidepanel-inner-->
+	    </div><!--//app-sidepanel-->
+    </header><!--//app-header-->
+    
+    <div class="app-wrapper">
+	    
+	    <div class="app-content pt-3 p-md-3 p-lg-4">
+		    <div class="container-xl">
+			    
+			    <h1 class="app-page-title">Overview</h1>
+			        
+			    <div class="row g-4 mb-4">
+				    <div class="col-6 col-lg-3">
+					    <div class="app-card app-card-stat shadow-sm h-100">
+						    <div class="app-card-body p-3 p-lg-4">
+							    <h4 class="stats-type mb-1">Total Sales</h4>
+							    <div class="stats-figure" id="total-sales">KES 25000</div>
+							    <div class="stats-meta text-success total-stats">This Month</div>
+						    </div><!--//app-card-body-->
+						    <!-- <a class="app-card-link-mask" href="#"></a> -->
+					    </div><!--//app-card-->
+				    </div><!--//col-->
+				    
+				    <div class="col-6 col-lg-3">
+					    <div class="app-card app-card-stat shadow-sm h-100">
+						    <div class="app-card-body p-3 p-lg-4">
+							    <h4 class="stats-type mb-1" >HEN SOLD</h4>
+							    <div class="stats-figure" id="hen-sold">50</div>
+							    <div class="stats-meta text-success hen-sold">This Month</div>
+						    </div><!--//app-card-body-->
+						    <!-- <a class="app-card-link-mask" href="#"></a> -->
+					    </div><!--//app-card-->
+				    </div><!--//col-->
+				    <div class="col-6 col-lg-3">
+					    <div class="app-card app-card-stat shadow-sm h-100">
+						    <div class="app-card-body p-3 p-lg-4">
+							    <h4 class="stats-type mb-1">BROILERS</h4>
+							    <div class="stats-figure" id="broilers">3</div>
+							    <div class="stats-meta">
+								    remaining</div>
+						    </div><!--//app-card-body-->
+						    <!-- <a class="app-card-link-mask" href="#"></a> -->
+					    </div><!--//app-card-->
+				    </div><!--//col-->
+				    <div class="col-6 col-lg-3">
+					    <div class="app-card app-card-stat shadow-sm h-100">
+						    <div class="app-card-body p-3 p-lg-4">
+							    <h4 class="stats-type mb-1">KIENYEJI</h4>
+							    <div class="stats-figure" id="kienyeji">0</div>
+							    <div class="stats-meta">remaining</div>
+						    </div><!--//app-card-body-->
+						    <!-- <a class="app-card-link-mask" href="#"></a> -->
+					    </div><!--//app-card-->
+				    </div><!--//col-->
+			    </div><!--//row-->
+			    <div class="row g-4 mb-4">
+			        <div class="col-12 col-lg-6">
+						<div class="app-card app-card-chart h-100 shadow-sm">
+							<div class="app-card-header p-3">
+								<div class="row justify-content-between align-items-center">
+									<div class="col-auto">
+										<h4 class="app-card-title">Total Hen Sold</h4>
+									</div>
+									<div class="col-auto">
+									</div>
+								</div>
+							</div>
+							<div class="app-card-body p-3 p-lg-4">
+								<div class="chart-container">
+									<form id="henForm">
+										<div class="mb-3">
+											<label for="chickenType" class="form-label">Type of Chicken</label>
+											<select class="form-select" id="chickenType" name="chickenType" required>
+												<option value="kienyeji">Kienyeji</option>
+												<option value="broilers">Broiler</option>
+											</select>
+										</div>
+										<div class="mb-3">
+											<label for="quantity" class="form-label">Quantity</label>
+											<input type="number" class="form-control" id="quantity" name="quantity" required min="1" placeholder="Enter quantity">
+										</div>
+										<!-- <div class="mb-3">
+											<label for="serviceCode" class="form-label">Service Code</label>
+											<input type="text" class="form-control" id="serviceCode" name="serviceCode" placeholder="Enter service code">
+										</div> -->
+										<div class="mb-3">
+											<label class="form-label">Action</label>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" name="action" id="add" value="increase" required>
+												<label class="form-check-label" for="add">
+													Add
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" name="action" id="decrease" value="decrease" required>
+												<label class="form-check-label" for="decrease">
+													Decrease
+												</label>
+											</div>
+										</div>
+										<button type="submit" class="btn btn-primary">Submit</button>
+									</form>
+								</div>
+							</div>
+							<!-- Floating Tab -->
+							<div class="floating-tab">
+								<a href="./orders.html" class="btn btn-primary  a-tag">
+									<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="23px" fill="#000000"><path d="M160-160v-516L82-846l72-34 94 202h464l94-202 72 34-78 170v516H160Zm240-280h160q17 0 28.5-11.5T600-480q0-17-11.5-28.5T560-520H400q-17 0-28.5 11.5T360-480q0 17 11.5 28.5T400-440ZM240-240h480v-358H240v358Zm0 0v-358 358Z"/></svg>
+								</a>
+							</div>
+							<style>
+								/* Floating tab styling */
+								.floating-tab {
+									position: fixed;
+									bottom: 20px;
+									right: 20px;
+									z-index: 1000;
+									display: none;
+								}
+
+								.a-tag {
+									height: 50px;
+									width: 50px;
+									border-radius: 25px;
+									padding-top: 12px;
+									padding-left: 14px;
+								}
+						
+								/* Show floating tab on mobile devices only */
+								@media (max-width: 768px) {
+									.floating-tab {
+										display: block;
+									}
+								}
+							</style>
+						</div>
+					</div>
+					
+			        
+	    
+	    <footer class="app-footer">
+		    <div class="container text-center py-3">
+		         <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="app-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+		       
+		    </div>
+	    </footer><!--//app-footer-->
+	    
+    </div><!--//app-wrapper-->    					
+
+ 
+    <!-- Javascript -->          
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+
+    <!-- Charts JS -->
+    <script src="assets/plugins/chart.js/chart.min.js"></script> 
+    <script src="assets/js/index-charts.js"></script> 
+    
+    <!-- Page Specific JS -->
+    <script src="assets/js/app.js"></script> 
+
+	<!-- submits form -->
+	<script src="assets/js/index.js"></script>
+
+	<!-- Font Awesome (for the icon) -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html> 
+
